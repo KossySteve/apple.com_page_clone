@@ -1,140 +1,141 @@
 body {
-    box-sizing: border-box;
-    font-family: 'Poiret One', cursive;
-    font-weight: 100;
-    color: white;
-    text-align: center;
-    overflow-x: hidden;
-    margin: 0px;
-    border: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  font-weight: 100;
+  margin: 0px;
+  overflow-x: hidden;
+  text-align: center;
 }
 
 .container {
-    background: url(assets/images/background_img.jpg) 50% 100% no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    height: 80vh;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0px;
-    border: 0px;
-    width: 100vw;
+  background: url(assets/images/background_img.jpg) 50% 100% no-repeat;
+  background-size: 100% 100%;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  margin: 0px;
+  width: 100vw;
 }
 
 .container_2 {
-    position: relative;
-    top: 19vh;
+  position: relative;
+  top: 19vh;
 }
 
 header {
-    display: flex;
-    justify-content: center;  
+  display: flex;
+  justify-content: center;  
 }
 
 .nav_bar {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .nav_bar ul {
-    align-items: center;
-    background-color: grey;
-    background-image: linear-gradient(to bottom, rgb(134, 130, 130) 40%,  rgb(80, 79, 79) 50%);
-    border: 1.5px solid grey;
-    border-radius: 5px;
-    display: flex;
-    height: 5vh;
-    justify-content: center;
-    list-style: none;
-    padding: 0px;
-    width: 70vw;
+  align-items: center;
+  background-color: grey;
+  background-image: linear-gradient(to bottom, rgb(134, 130, 130) 40%,  rgb(80, 79, 79) 50%);
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+  width: 70vw;
 }
 
 .nav_bar ul li {
-    flex: 1 1 7vw;
-    border-left: 1px solid rgb(63, 62, 62);
-    padding: 7px;
+  border-left: 1px solid rgb(63, 62, 62);
+  flex: 1 1 7vw;
+  padding: 7px;
 }
 
 .nav_bar ul li:first-child {
-    border: 0px;
+  border: 0px;
 }
 
 .nav_bar ul li:last-child {
-    padding-top: 4px;
+  padding-top: 4px;
 }
 
 .nav_bar ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: small;
-    font-weight: bolder;
+  color: white;
+  font-size: small;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 .nav_bar ul li i {
-    width: 20px;
-    height: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 input {
-    background-color: rgb(80, 79, 79) 50% ;
-    background-image: linear-gradient(180deg,rgb(134, 130, 130) 30%,  rgb(80, 79, 79) 50%);
-    border: 2px solid grey;
-    border-radius: 15px;
-    padding: 2px 3px;
-    outline: white;
+  background-color: rgb(80, 79, 79) 50% ;
+  background-image: linear-gradient(180deg,rgb(134, 130, 130) 30%,  rgb(80, 79, 79) 50%);
+  border: 2px solid grey;
+  border-radius: 15px;
+  outline: white;
+  padding: 2px 3px;
 }
 
 .input {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .input i {
-    position: relative;
-    left: 25px;
-    top: 5px;
+  left: 25px;
+  position: relative;
+  top: 5px;
 }
 
 input:focus {
-    background-image: linear-gradient(to bottom, white, white);
-    border: 5px solid white;
-    position: relative;
-    top: 2.5px;
-    color: black;
-    padding: 5px;
-    margin-left: -3px;
-    width: 200px;
-    height: 17px;
+  background-image: linear-gradient(to bottom, white, white);
+  border: 5px solid white;
+  color: black;
+  height: 17px;
+  margin-left: -3px;
+  padding: 5px;
+  position: relative;
+  top: 2.5px;
+  width: 200px;
 }
 
 .main_section { 
-    border: 0px;
-    margin: 0px;
-    width: 100vw;
-    height: 80vh;
+  border: 0px;
+  margin: 0px;
+  height: 80vh;
+  width: 100vw;
 }
+
 .main_section a { 
-    color: white;
+  color: white;
 }
 
 .font1 {
-    font-size: 60px;
-    font-weight: 1px;
+  font-size: 60px;
+  font-weight: 1px;
 }
 
 .font2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .thumbnail {
-    display: flex;
-    height: 200px;
-    justify-content: start;
-    margin: 0px;
-    margin-top: 2px;
-    width: 100vw;   
+  display: flex;
+  height: 200px;
+  justify-content: start;
+  margin: 0px;
+  margin-top: 2px;
+  width: 100vw;   
 }
 
 .thumbnail img {
@@ -142,36 +143,38 @@ input:focus {
 }
 
 .footer {
-    width: 70vw;
-    height: 10vh;
-    color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 9px;
-    margin: 10px auto;
-    word-spacing: 0.5px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  height: 10vh;
+  margin: 10px auto;
+  width: 70vw;
+  word-spacing: 0.5px;
 }
 
 footer a {
-    text-decoration: none;
-    color: rgb(47, 115, 251);
+  color: rgb(47, 115, 251);
+  text-decoration: none;
 }
 
 footer > :first-child {
-    float: left;
+  float: left;
+  margin: -5px;
 }
 
 footer img {
-    position: relative;
-    top: 4px;
+  position: relative;
+  top: 4px;
 }
+
 footer > :nth-child(2) {
-     float: right;
-     position: relative;
-     left: -5px;
-     top: -5px;
+  float: right;
+  left: -5px;
+  position: relative;
+  top: -5px;
  }
 
  .last_line {
-     clear: both;
-     float: left;
+  clear: both;
+  float: left;
  }
