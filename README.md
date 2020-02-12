@@ -11,7 +11,7 @@ This project is part of the Microverse program in which we have created a clone 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KossySteve/NewYorkTimes-Article-page-clone/7ec18f6b56ef578bf68cf69a446e2f760868e274/index.html)
+[Live Demo Link](https://rawcdn.githack.com/KossySteve/apple.com_page_clone/1002cf609d5477652db394ffbc80edd2905d72ac/index.html)
 
 ## Author
 
