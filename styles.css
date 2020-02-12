@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Poiret One', cursive;
-    font-weight: lighter;
+    font-weight: 100;
     color: white;
     text-align: center;
     overflow-x: hidden;
@@ -53,18 +53,22 @@ header {
 
 .nav_bar ul li {
     flex: 1 1 7vw;
-    border-left: 3px solid rgb(63, 62, 62);
-    padding: 11px;
+    border-left: 1px solid rgb(63, 62, 62);
+    padding: 7px;
 }
 
 .nav_bar ul li:first-child {
     border: 0px;
 }
 
+.nav_bar ul li:last-child {
+    padding-top: 4px;
+}
+
 .nav_bar ul li a {
     text-decoration: none;
     color: white;
-    font-size: larger;
+    font-size: small;
     font-weight: bolder;
 }
 
@@ -80,14 +84,29 @@ input {
     border-radius: 15px;
     padding: 2px 3px;
     outline: white;
-    width: 120px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input i {
+    position: relative;
+    left: 25px;
+    top: 5px;
 }
 
 input:focus {
     background-image: linear-gradient(to bottom, white, white);
     border: 5px solid white;
-    padding: 0;
+    position: relative;
+    top: 2.5px;
+    color: black;
+    padding: 5px;
+    margin-left: -3px;
     width: 200px;
+    height: 17px;
 }
 
 .main_section { 
@@ -127,10 +146,9 @@ input:focus {
     height: 10vh;
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+    font-size: 9px;
     margin: 10px auto;
-    letter-spacing: 1px;
-    word-spacing: 1px;
+    word-spacing: 0.5px;
 }
 
 footer a {
