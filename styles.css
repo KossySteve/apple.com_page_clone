@@ -23,7 +23,7 @@ body {
 
 .container_2 {
   position: relative;
-  top: 19vh;
+  top: 105px;
 }
 
 header {
@@ -32,49 +32,51 @@ header {
 }
 
 .nav_bar {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.nav_bar ul {
-  align-items: center;
-  background-color: grey;
-  background-image: linear-gradient(to bottom, rgb(134, 130, 130) 40%,  rgb(80, 79, 79) 50%);
-  border: 1.5px solid grey;
-  border-radius: 5px;
+  border: 1px solid rgb(141, 139, 139);
+  border-radius: 3px;
   display: flex;
   height: 5vh;
   justify-content: center;
-  list-style: none;
-  padding: 0px;
+  position: relative;
+  text-align: center;
+  top: 30px;
   width: 70vw;
 }
 
-.nav_bar ul li {
-  border-left: 1px solid rgb(63, 62, 62);
-  flex: 1 1 7vw;
-  padding: 7px;
-}
-
-.nav_bar ul li:first-child {
-  border: 0px;
-}
-
-.nav_bar ul li:last-child {
-  padding-top: 4px;
-}
-
-.nav_bar ul li a {
+.nav_bar > * {
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(134, 130, 130) 40%,  rgb(80, 79, 79) 50%);
+  border: 1.5px solid grey;
   color: white;
-  font-size: small;
-  font-weight: bolder;
+  display: flex;
+  flex: 1 1 7vw;
+  height: 5vh;
+  justify-content: center;
+  padding: 0px;
   text-decoration: none;
 }
 
-.nav_bar ul li i {
-  height: 20px;
-  width: 20px;
+.nav_bar > *:hover {
+ background-color: rgba(49, 51, 49, 0.9);
+}
+.nav_bar > :last-child {
+  flex: 2 1 7vw;
+  justify-self: center;
+}
+
+.nav_bar > :last-child i {
+  left: 25px;
+  position: relative;
+  top: 1.5px;
+}
+
+.nav_bar a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  background:white;
 }
 
 input {
@@ -82,6 +84,7 @@ input {
   background-image: linear-gradient(180deg,rgb(134, 130, 130) 30%,  rgb(80, 79, 79) 50%);
   border: 2px solid grey;
   border-radius: 15px;
+  margin-right: 10px;
   outline: white;
   padding: 2px 3px;
 }
@@ -107,6 +110,7 @@ input:focus {
   position: relative;
   top: 2.5px;
   width: 200px;
+  z-index: 1;
 }
 
 .main_section { 
@@ -123,6 +127,8 @@ input:focus {
 .font1 {
   font-size: 60px;
   font-weight: 1px;
+  margin: 30px;
+  margin-top: 50px;
 }
 
 .font2 {
@@ -145,9 +151,9 @@ input:focus {
 .footer {
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 9px;
+  font-size: 12px;
   height: 10vh;
-  margin: 10px auto;
+  margin: 15px auto;
   width: 70vw;
   word-spacing: 0.5px;
 }
@@ -157,9 +163,15 @@ footer a {
   text-decoration: none;
 }
 
+footer a:hover {
+    color: rgb(47, 115, 251);
+    text-decoration: underline;
+}
+
 footer > :first-child {
   float: left;
-  margin: -5px;
+  margin: 0;
+  margin-right: 5px;
 }
 
 footer img {
@@ -171,10 +183,13 @@ footer > :nth-child(2) {
   float: right;
   left: -5px;
   position: relative;
-  top: -5px;
+  top: -14px;
  }
 
  .last_line {
   clear: both;
   float: left;
+  position: relative;
+  top: -10px;
  }
+ 
