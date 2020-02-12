@@ -59,6 +59,7 @@ header {
 .nav_bar > *:hover {
  background-color: rgba(49, 51, 49, 0.9);
 }
+
 .nav_bar > :last-child {
   flex: 2 1 7vw;
   justify-self: center;
@@ -145,7 +146,7 @@ input:focus {
 }
 
 .thumbnail img {
-    flex: 1 1 320px;
+  flex: 1 1 320px;
 }
 
 .footer {
@@ -164,8 +165,8 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(47, 115, 251);
-    text-decoration: underline;
+  color: rgb(47, 115, 251);
+  text-decoration: underline;
 }
 
 footer > :first-child {
