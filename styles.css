@@ -1,10 +1,10 @@
 body {
-  border: 0px;
+  border: 0;
   box-sizing: border-box;
   color: white;
   font-family: 'Poiret One', cursive;
   font-weight: 100;
-  margin: 0px;
+  margin: 0;
   overflow-x: hidden;
   text-align: center;
 }
@@ -12,12 +12,12 @@ body {
 .container {
   background: url(assets/images/background_img.jpg) 50% 100% no-repeat;
   background-size: 100% 100%;
-  border: 0px;
+  border: 0;
   display: flex;
   flex-direction: column;
   height: 80vh;
   justify-content: center;
-  margin: 0px;
+  margin: 0;
   width: 100vw;
 }
 
@@ -28,7 +28,7 @@ body {
 
 header {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .nav_bar {
@@ -45,19 +45,43 @@ header {
 
 .nav_bar > * {
   align-items: center;
-  background: linear-gradient(to bottom, rgb(134, 130, 130) 40%,  rgb(80, 79, 79) 50%);
+  background: linear-gradient(to bottom, rgb(134, 130, 130) 40%, rgb(80, 79, 79) 50%);
   border: 1.5px solid grey;
   color: white;
   display: flex;
   flex: 1 1 7vw;
   height: 5vh;
   justify-content: center;
-  padding: 0px;
+  padding: 0;
+  text-decoration: none;
+}
+
+footer a {
+  color: rgb(47, 115, 251);
   text-decoration: none;
 }
 
 .nav_bar > *:hover {
- background-color: rgba(49, 51, 49, 0.9);
+  background-color: rgba(49, 51, 49, 0.9);
+}
+
+.input i {
+  left: 25px;
+  position: relative;
+  top: 5px;
+}
+
+footer > :nth-child(2) {
+  float: right;
+  left: -5px;
+  position: relative;
+  top: -14px;
+}
+
+footer > :first-child {
+  float: left;
+  margin: 0;
+  margin-right: 5px;
 }
 
 .nav_bar > :last-child {
@@ -77,12 +101,12 @@ header {
 }
 
 a:hover {
-  background:white;
+  background: white;
 }
 
 input {
-  background-color: rgb(80, 79, 79) 50% ;
-  background-image: linear-gradient(180deg,rgb(134, 130, 130) 30%,  rgb(80, 79, 79) 50%);
+  background-color: rgb(80, 79, 79) 50%;
+  background-image: linear-gradient(180deg, rgb(134, 130, 130) 30%, rgb(80, 79, 79) 50%);
   border: 2px solid grey;
   border-radius: 15px;
   margin-right: 10px;
@@ -93,12 +117,6 @@ input {
 .input {
   display: flex;
   justify-content: center;
-}
-
-.input i {
-  left: 25px;
-  position: relative;
-  top: 5px;
 }
 
 input:focus {
@@ -114,14 +132,14 @@ input:focus {
   z-index: 1;
 }
 
-.main_section { 
-  border: 0px;
-  margin: 0px;
+.main_section {
+  border: 0;
+  margin: 0;
   height: 80vh;
   width: 100vw;
 }
 
-.main_section a { 
+.main_section a {
   color: white;
 }
 
@@ -140,9 +158,14 @@ input:focus {
   display: flex;
   height: 200px;
   justify-content: start;
-  margin: 0px;
+  margin: 0;
   margin-top: 2px;
-  width: 100vw;   
+  width: 100vw;
+}
+
+footer img {
+  position: relative;
+  top: 4px;
 }
 
 .thumbnail img {
@@ -159,38 +182,14 @@ input:focus {
   word-spacing: 0.5px;
 }
 
-footer a {
-  color: rgb(47, 115, 251);
-  text-decoration: none;
-}
-
 footer a:hover {
   color: rgb(47, 115, 251);
   text-decoration: underline;
 }
 
-footer > :first-child {
-  float: left;
-  margin: 0;
-  margin-right: 5px;
-}
-
-footer img {
-  position: relative;
-  top: 4px;
-}
-
-footer > :nth-child(2) {
-  float: right;
-  left: -5px;
-  position: relative;
-  top: -14px;
- }
-
- .last_line {
+.last_line {
   clear: both;
   float: left;
   position: relative;
   top: -10px;
- }
- 
+}
