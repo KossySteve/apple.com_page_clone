@@ -2,6 +2,8 @@
 
 This project is part of the Microverse program in which we have created a clone page of apple.com. For the construction of this page we have used CSS flexbox, gradient, background, positioning and float.
 
+![screenshot](./screenshot.PNG)
+
 ## Built With
 
 - HTML
