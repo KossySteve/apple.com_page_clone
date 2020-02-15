@@ -50,7 +50,7 @@ nav ul li {
 
 .nav_bar > * {
   align-items: center;
-  background: linear-gradient(to bottom, rgb(134, 130, 130) 40%, rgb(80, 79, 79) 50%);
+  background: linear-gradient(to bottom, rgb(134, 130, 130) 45%, rgb(80, 79, 79) 50%);
   border: 1.5px solid grey;
   color: white;
   display: flex;
@@ -71,7 +71,7 @@ footer a {
   font-size: 20px;
   font-weight: bold;
   height: 80%;
-  padding-top: 10px;
+  padding-top: 9px;
   text-decoration: none;
   width: 100%;
 }
