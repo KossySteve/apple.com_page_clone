@@ -1,10 +1,11 @@
 body {
   border: 0;
-  box-sizing: border-box;
   color: white;
   font-family: 'Poiret One', cursive;
   font-weight: 100;
+  height: 100vh;
   margin: 0;
+  padding: 0;
   overflow-x: hidden;
   text-align: center;
 }
@@ -22,13 +23,15 @@ body {
 }
 
 .container_2 {
-  position: relative;
-  top: 105px;
-}
-
-header {
+  align-items: center;
   display: flex;
   justify-content: center;
+  position: relative;
+  top: -170px;
+}
+
+nav ul li {
+  list-style-type: none;
 }
 
 .nav_bar {
@@ -37,10 +40,12 @@ header {
   display: flex;
   height: 5vh;
   justify-content: center;
+  margin: 0;
+  padding: 0;
   position: relative;
   text-align: center;
-  top: 30px;
-  width: 70vw;
+  top: 5px;
+  width: 75vw;
 }
 
 .nav_bar > * {
@@ -61,8 +66,21 @@ footer a {
   text-decoration: none;
 }
 
-.nav_bar > *:hover {
-  background-color: rgba(49, 51, 49, 0.9);
+.nav_bar a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+}
+
+.main_section a {
+  color: white;
+}
+
+.nav_bar li a:hover {
+  background-color: rgba(31, 32, 31, 0.5);
 }
 
 .input i {
@@ -71,17 +89,8 @@ footer a {
   top: 5px;
 }
 
-footer > :nth-child(2) {
-  float: right;
-  left: -5px;
-  position: relative;
-  top: -14px;
-}
-
-footer > :first-child {
-  float: left;
-  margin: 0;
-  margin-right: 5px;
+.nav_bar > :first-child i {
+  font-size: 25px;
 }
 
 .nav_bar > :last-child {
@@ -93,15 +102,6 @@ footer > :first-child {
   left: 25px;
   position: relative;
   top: 1.5px;
-}
-
-.nav_bar a {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-a:hover {
-  background: white;
 }
 
 input {
@@ -125,9 +125,9 @@ input:focus {
   color: black;
   height: 17px;
   margin-left: -3px;
-  padding: 5px;
+  padding: 8px;
   position: relative;
-  top: 2.5px;
+  top: 1px;
   width: 200px;
   z-index: 1;
 }
@@ -135,12 +135,9 @@ input:focus {
 .main_section {
   border: 0;
   margin: 0;
-  height: 80vh;
+  position: relative;
+  top: -420px;
   width: 100vw;
-}
-
-.main_section a {
-  color: white;
 }
 
 .font1 {
@@ -160,6 +157,8 @@ input:focus {
   justify-content: start;
   margin: 0;
   margin-top: 2px;
+  position: relative;
+  top: -300px;
   width: 100vw;
 }
 
@@ -175,21 +174,23 @@ footer img {
 .footer {
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  height: 10vh;
-  margin: 15px auto;
-  width: 70vw;
+  font-size: 11px;
+  height: 80px;
+  margin: 0 50px;
+  position: relative;
+  top: -270px;
+  width: 100vw;
   word-spacing: 0.5px;
 }
 
-footer a:hover {
-  color: rgb(47, 115, 251);
-  text-decoration: underline;
+.footer_1 {
+  position: relative;
+  left: -50px;
+  margin-right: 30px;
 }
 
-.last_line {
-  clear: both;
-  float: left;
+.footer_3 {
   position: relative;
-  top: -10px;
+  left: -355px;
+  top: 20px;
 }
