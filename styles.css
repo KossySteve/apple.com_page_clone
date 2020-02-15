@@ -71,7 +71,7 @@ footer a {
   font-size: 18px;
   font-weight: bold;
   height: 80%;
-  padding-top: 9px;
+  padding-top: 3px;
   text-decoration: none;
   width: 100%;
 }
@@ -83,6 +83,7 @@ footer a {
 .thumbnail a {
   border: 0;
   margin: 0;
+  padding: 0;
   text-decoration: none;
 }
 
@@ -143,19 +144,19 @@ input:focus {
   border: 0;
   margin: 0;
   position: relative;
-  top: -480px;
+  top: -440px;
   width: 100vw;
 }
 
 .font1 {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 1px;
   margin: 30px;
   margin-top: 50px;
 }
 
 .font2 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .thumbnail {
@@ -166,7 +167,7 @@ input:focus {
   margin: 0;
   padding: 0;
   position: relative;
-  top: -330px;
+  top: -308px;
   width: 100vw;
 }
 
@@ -176,15 +177,18 @@ footer img {
 }
 
 .thumbnail > * {
-  flex: 1 1 25%;
+  flex: 1 1 20vw;
   margin: 0;
   padding: 0;
+  position: relative;
+  left: -5px;
 }
 
 .thumbnail img {
   border: 0;
   margin: 0;
   padding: 1px;
+  width: 100%;
 }
 
 .footer {
@@ -192,10 +196,10 @@ footer img {
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
-  height: 50px;
+  height: 60px;
   margin: 0 50px;
   position: relative;
-  top: -260px;
+  top: -270px;
   width: 100vw;
   word-spacing: 0.5px;
 }
