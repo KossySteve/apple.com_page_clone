@@ -11,7 +11,7 @@ This project is part of the Microverse program in which we have created a clone 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KossySteve/apple.com_page_clone/6112c7992d356c27c279bbd64685077f7a2cfd5c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/KossySteve/apple.com_page_clone/b36edbdaf010b12ad0279f4e7bbafec4ebb8da5d/index.html)
 
 ## Author
 
