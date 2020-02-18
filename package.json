@@ -1,0 +1,24 @@
+{
+  "name": "apple.com_page_clone",
+  "version": "1.0.0",
+  "description": "This project is part of the Microverse program in which we have created a clone page of apple.com. For the construction of this page we have used CSS flexbox, gradient, background, positioning and float.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KossySteve/apple.com_page_clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KossySteve/apple.com_page_clone/issues"
+  },
+  "homepage": "https://github.com/KossySteve/apple.com_page_clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.1.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
